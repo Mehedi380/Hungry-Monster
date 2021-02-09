@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: #e74c3c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inner-form .input-field.second-wrap .btn-search:hover {
+    background: #e74c3c;
+}
+
+.inner-form .input-field.second-wrap .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.icon-check {
+    color: #e74c3c;
+    margin-right: 5px;
+}
+
+#error {
+    display: none;
+}
